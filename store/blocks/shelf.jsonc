@@ -11,7 +11,7 @@
             "minItemsPerPage": 1,
             "scroll": "BY_PAGE",
             "arrows": true,
-            "titleText": "Top sellers"
+            "titleText": "Top Beers"
           }
         }
       },
