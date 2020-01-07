@@ -5,6 +5,7 @@
       "info-card#button-left",
       "flex-layout.row",
       "flex-layout.col",
+      "shelf",
       "slider-layout#home"
     ]
   },
