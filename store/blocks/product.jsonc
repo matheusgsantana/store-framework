@@ -30,7 +30,7 @@
       "buy-button"
     ],
     "props":{
-      "verticalAlign": "top",
+      "verticalAlign": "middle",
       "preventVerticalStretch": true
     }
   },
