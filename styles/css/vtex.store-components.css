@@ -33,3 +33,9 @@
 .infoCardContainer--metal {
     background-color: #e1e1e1
   }
+
+  .infoCardContainer--rethink :global(.vtex-button) {
+    color: blue;
+    background-color: white;
+    border: transparent;
+  }
