@@ -1,6 +1,6 @@
 {
-    "shelf": {
-        "blocks": ["product-summary.shelf"],
+    "shelf#beers": {
+        "blocks": ["product-summary.shelf#beers"],
         "props": {
           "category": 2,
           "orderBy": "OrderByTopSaleDESC",
@@ -15,7 +15,35 @@
           }
         }
       },
-      "product-summary.shelf": {
+      "product-summary.shelf#beers": {
+        "children": [
+          "product-summary-image",
+          "product-summary-add-to-list-button",
+          "product-summary-name",
+          "product-rating-inline",
+          "product-summary-space",
+          "product-summary-price",
+          "product-identifier.summary",
+          "product-summary-buy-button"
+        ]
+      },
+      "shelf#accs": {
+        "blocks": ["product-summary.shelf#accs"],
+        "props": {
+          "category": 3,
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "desktopOnly",
+          "productList": {
+            "maxItems": 8,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "Accessories"
+          }
+        }
+      },
+      "product-summary.shelf#accs": {
         "children": [
           "product-summary-image",
           "product-summary-add-to-list-button",

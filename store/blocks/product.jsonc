@@ -83,8 +83,8 @@
   },
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": true,
-      "ShowValueForVariation": "all",
+      "initialSelection": "empty",
+      "showValueForVariation": "all",
       "showVariationsLabels": true,
       "showVariationsErrorMessage": true
     }

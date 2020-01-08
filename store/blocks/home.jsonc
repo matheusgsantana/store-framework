@@ -5,7 +5,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "flex-layout.col",
-      "shelf",
+      "shelf#beers",
+      "shelf#accs",
       "slider-layout#home",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile"
