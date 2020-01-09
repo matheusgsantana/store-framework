@@ -8,7 +8,7 @@
     "image#landingbanner": {
         "props": {
             "src": "https://emporiodacerveja.vteximg.com.br/arquivos/ids/175484/ECOMM-544_Colorado_50off_banners_desktop_1080x300_1.jpg?v=637140892813100000",
-            "minWidth": 100 
+            "minWidth": "100%"
         }
     },
     "search-result-layout.customQuery": {
