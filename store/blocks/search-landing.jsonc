@@ -1,0 +1,23 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://emporiodacerveja.vteximg.com.br/arquivos/ids/175484/ECOMM-544_Colorado_50off_banners_desktop_1080x300_1.jpg?v=637140892813100000",
+            "minWidth": 100 
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "maxItemsPerPage": 8,
+            "hideUnavailableItems": true,
+            "orderByField": "OrderByReleaseDateDESC",
+            "queryField": "Blue Top Retro Camera",
+            "mapField": "ft"
+        }
+    }
+}
